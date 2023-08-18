@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
       create: (context) => FavoritesProvider(),
-      child: MaterialApp(
+      child: const MaterialApp(
         title: 'Your App Name',
         home: UserListScreen(),
       ),
